@@ -1,2 +1,2 @@
 # TomPedersen.github.io
-Personal site
+Personal site/playground for my HTML/CSS/JavaScript experiments.
