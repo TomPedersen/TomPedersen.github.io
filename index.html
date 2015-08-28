@@ -1,10 +1,25 @@
 <!DOCTYPE html>
 <html>
-	<body>
-		<h1>Hello World</h1>
-		<p>I'm hosted with GitHub Pages.</p>
+	<head>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
+		</script>
+		<script>
+			$(document).ready(function(){
+				$('#img-staring').hover(function(){
+					$(this).attr('src', 'images/meme-poker face.jpg');
+					$('body').append('<h2>Check out my LinkedIn!</h2></h2>');
+				},function(){
+					$(this).attr('src', 'images/staring_at_pc.gif')
+					$('h2').remove();
+				});
+			});
+		</script>
+	</head>
+	<body style="text-align: center">
+		<h1>Hi.</h1>
+		<p>I'm Tom. This is a hasty placeholder for a personal site that I'll get around to working on when I finish some other projects.</p>
 		<div>
-			<img src="images/meme-poker face.jpg" alt="poker face" height="150" width="150">
+			<a href="https://nz.linkedin.com/in/tompedersen1"><img id="img-staring" src="images/staring_at_pc.gif" alt="poker face"></a>
 		</div>
 	</body>
 </html>
