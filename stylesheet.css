@@ -1,0 +1,339 @@
+/* About Me */
+
+.about-me {
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Montserrat', sans-serif; 
+} 
+
+.about-me {
+	background: url(images/Misc-Unknown-65130.jpg) no-repeat fixed; 
+	background-size: 100%;
+}
+
+/* About Me Header */
+.about-me .header, .about-me .footer {
+	padding: 30px 0; 
+	color: #444; 
+}
+
+.about-me .header h1 {
+	color: #fff;  
+	font-size: 30px; 
+	text-transform: uppercase; 
+}
+
+.about-me .header h4 {
+	color: #fff;
+	margin: 0 0 30px;
+}
+
+.about-me .header ul, .about-me .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
+
+.about-me .header li {
+	display: inline; 
+	width: 100px; 
+	text-align: center; 
+	margin: 6px; 
+}
+
+.about-me .header li a {
+	color: #9966FF; 
+}
+
+.about-me .header li.active a {
+	background-color: #9966FF;
+	color: #fff; 
+} 
+
+/* About Me Main */ 
+.about-me .main {
+	margin-bottom: 30px; 
+}
+
+.about-me .thumbnail {
+	padding: 0; 
+	box-shadow: 0px 2px 2px rgba(0,0,0,0.1); 
+	border-radius: 0px; 
+	border: 0px; 
+}
+
+.about-me .thumbnail img {
+	width: 360px; 
+	/*width: 100%;*/
+	display: block; 
+}
+
+/* About Me Footer */ 
+.about-me .footer li {
+	display: inline; 
+	margin-right: 40px; 
+} 
+
+.about-me .footer li a {
+	color: #9966FF; 
+	text-decoration: none;
+}
+
+.about-me .footer p {
+	color: #fff;
+	margin: 0 30px 0 0; 
+} 
+
+/* History */
+
+.history {
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Montserrat', sans-serif; 
+} 
+
+.history {
+	background: url(images/books.jpg) no-repeat fixed; 
+	background-size: 100%;
+}
+
+/* History Header */
+.history .header, .history .footer {
+	padding: 30px 0; 
+	color: #444; 
+}
+
+.history .header h1 {
+	color: #fff;  
+	font-size: 30px; 
+	text-transform: uppercase; 
+}
+
+.history .header h4 {
+	color: #fff;
+	margin: 0 0 30px;
+}
+
+.history .header ul, .history .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
+
+.history .header li {
+	display: inline; 
+	width: 100px; 
+	text-align: center; 
+	margin: 6px; 
+}
+
+.history .header li a {
+	color: #9966FF; 
+}
+
+.history .header li.active a {
+	background-color: #9966FF;
+	color: #fff; 
+} 
+
+/* History Main */ 
+
+/* History Footer */ 
+.history .footer li {
+	display: inline; 
+	margin-right: 40px; 
+} 
+
+.history .footer li a {
+	color: #9966FF; 
+	text-decoration: none;
+}
+
+.history .footer p {
+	color: #fff;
+	margin: 0 30px 0 0; 
+} 
+
+/* Interests */
+
+.interests {
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Montserrat', sans-serif; 
+} 
+
+.interests {
+	background: url(images/Music-Headphones-61874.jpg) no-repeat fixed; 
+	background-size: 100%;
+}
+
+/* Interests Header */
+.interests .header, .interests .footer {
+	padding: 30px 0; 
+	color: #444; 
+}
+
+.interests .header h1 {
+	color: #fff;  
+	font-size: 30px; 
+	text-transform: uppercase; 
+}
+
+.interests .header h4 {
+	color: #fff;
+	margin: 0 0 30px;
+}
+
+.interests .header ul, .interests .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
+
+.interests .header li {
+	display: inline; 
+	width: 100px; 
+	text-align: center; 
+	margin: 6px; 
+}
+
+.interests .header li a {
+	color: #9966FF; 
+}
+
+.interests .header li.active a {
+	background-color: #9966FF;
+	color: #fff; 
+} 
+
+/* Interests Main */ 
+.interests .content-container .container {
+	max-width: 928px;
+} 
+
+.interests .content-container h1, .interests .content-container h2, .interests .content-container p {
+	font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; 
+} 
+
+.interests .content-container h1 {
+	color: #fff;
+	font-size: 64px; 
+	font-weight: 100; 
+	margin-bottom: 20px;
+} 
+
+.interests .content-container h2 {
+	color: #fff; 
+	font-size: 2.3em; 
+	font-weight: 300; 
+	line-height: 1.25; 
+	margin: 1em 0; 
+} 
+
+.interests .content-container p {
+	color: #fff;
+	font-size: 26px; 
+	font-weight: 200; 
+} 
+
+.interests .content-container .section {
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+	border-bottom: 2px solid #fff; 
+}
+
+.interests .content-container .text-box {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.interests .content-container img {
+	border-radius: 10px;
+}
+
+/* Interests Footer */ 
+.interests .footer li {
+	display: inline; 
+	margin-right: 40px; 
+} 
+
+.interests .footer li a {
+	color: #9966FF; 
+	text-decoration: none;
+}
+
+.interests .footer p {
+	color: #fff;
+	margin: 0 30px 0 0; 
+} 
+
+/* Future */
+
+.future {
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Montserrat', sans-serif; 
+} 
+
+.future {
+	background: url(images/TheRoadEternal.png) no-repeat fixed; 
+	background-size: 100%;
+}
+
+/* Future Header */
+.future .header, .future .footer {
+	padding: 30px 0; 
+	color: #444; 
+}
+
+.future .header h1 {
+	color: #fff;  
+	font-size: 30px; 
+	text-transform: uppercase; 
+}
+
+.future .header h4 {
+	color: #fff;
+	margin: 0 0 30px;
+}
+
+.future .header ul, .future .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
+
+.future .header li {
+	display: inline; 
+	width: 100px; 
+	text-align: center; 
+	margin: 6px; 
+}
+
+.future .header li a {
+	color: #9966FF; 
+}
+
+.future .header li.active a {
+	background-color: #9966FF;
+	color: #fff; 
+} 
+
+/* Future Main */ 
+
+/* Future Footer */ 
+.future .footer li {
+	display: inline; 
+	margin-right: 40px; 
+} 
+
+.future .footer li a {
+	color: #9966FF; 
+	text-decoration: none;
+}
+
+.future .footer p {
+	color: #fff;
+	margin: 0 30px 0 0; 
+} 
+

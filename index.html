@@ -1,25 +1,100 @@
 <!DOCTYPE html>
 <html>
-	<head>
-		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.3/jquery.min.js">
-		</script>
-		<script>
-			$(document).ready(function(){
-				$('#img-staring').hover(function(){
-					$(this).attr('src', 'images/meme-poker face.jpg');
-					$('body').append('<h2>Check out my LinkedIn!</h2>');
-				},function(){
-					$(this).attr('src', 'images/staring_at_pc.gif')
-					$('h2').remove();
-				});
-			});
-		</script>
-	</head>
-	<body style="text-align: center">
-		<h1>Hi.</h1>
-		<p>I'm Tom. This is a hasty placeholder for a personal site that I'll get around to working on when I finish some other projects.</p>
-		<div>
-			<a href="https://nz.linkedin.com/in/tompedersen1"><img id="img-staring" src="images/staring_at_pc.gif" alt="poker face"></a>
-		</div>
-	</body>
+  <head>
+    <link rel="stylesheet" href="https://s3.amazonaws.com/codecademy-content/projects/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Montserrat" rel="stylesheet" type="text/css">
+    <link type= "text/css" rel='stylesheet' href='stylesheet.css'/>
+    <meta charset="utf-8">
+  </head>
+  <body class="about-me">
+    <div class="header"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col-md-4"> 
+            <h1>Tom Pedersen</h1>
+            <h4>.Net / Web Developer</h4> 
+          </div> 
+          <div class="pull-right"> 
+            <ul class="nav nav-pills"> 
+              <li class="active"><a href="index.html">Who is Tom?</a></li> 
+              <li><a href="history.html">Work History</a></li> 
+              <li><a href="interests.html">My Interests</a></li> 
+              <li><a href="future.html">The Future</a></li> 
+            </ul> 
+          </div> 
+        </div> 
+      </div> 
+    </div> 
+    <div class="main"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p1.jpg"> 
+            </a> 
+          </div> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p2.jpg"> 
+            </a> 
+          </div> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p3.jpg"> 
+            </a> 
+          </div> 
+        </div> 
+        <div class="row"> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p4.jpg"> 
+            </a> 
+          </div> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p5.jpg"> 
+            </a> 
+          </div> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p6.jpg"> 
+            </a> 
+          </div> 
+        </div> 
+        <div class="row"> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p7.jpg"> 
+            </a> 
+          </div> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p8.jpg"> 
+            </a> 
+          </div> 
+          <div class="col-md-4"> 
+            <a href="#" class="thumbnail"> 
+              <img src="images/p9.jpg"> 
+            </a> 
+          </div> 
+        </div> 
+      </div>
+    </div> 
+    <div class="footer"> 
+      <div class="container"> 
+        <div class="row"> 
+          <div class="col-md-4"> 
+            <ul> 
+              <li><a href="mailto:thomasmpedersen@gmail.com">email</a></li>
+              <li><a href="https://nz.linkedin.com/in/tompedersen1" target="_blank">linkedin</a></li>
+              <li><a href="https://www.facebook.com/hollie.t.pedersen" target="_blank">facebook</a></li>
+            </ul> 
+          </div> 
+          <div class="pull-right"> 
+            <p>© 2015</p> 
+          </div> 
+        </div> 
+      </div> 
+    </div>
+  </body>
 </html>
