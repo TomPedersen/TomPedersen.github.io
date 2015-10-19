@@ -7,7 +7,7 @@
 } 
 
 .about-me {
-	background: url(images/Misc-Unknown-65130.jpg) no-repeat fixed; 
+	background: url(images/Misc-Unknown-65130.jpg) no-repeat fixed center; 
 	background-size: 100%;
 }
 
@@ -51,6 +51,8 @@
 } 
 
 /* About Me Main */ 
+
+/*
 .about-me .main {
 	margin-bottom: 30px; 
 }
@@ -64,9 +66,23 @@
 
 .about-me .thumbnail img {
 	width: 360px; 
-	/*width: 100%;*/
+	width: 100%;
 	display: block; 
 }
+*/
+.about-me .main .container {
+	max-width: 928px;
+	margin-bottom: 20px;
+} 
+
+.about-me .myphoto img{
+	display: block;
+	float: left;
+	margin: 10px 30px;
+	border-radius: 10px;
+}
+
+
 
 /* About Me Footer */ 
 .about-me .footer li {
@@ -93,7 +109,7 @@
 } 
 
 .history {
-	background: url(images/books.jpg) no-repeat fixed; 
+	background: url(images/books.jpg) no-repeat fixed center; 
 	background-size: 100%;
 }
 
@@ -163,7 +179,7 @@
 } 
 
 .interests {
-	background: url(images/Music-Headphones-61874.jpg) no-repeat fixed; 
+	background: url(images/Music-Headphones-61874.jpg) no-repeat fixed center; 
 	background-size: 100%;
 }
 
@@ -276,7 +292,7 @@
 } 
 
 .future {
-	background: url(images/TheRoadEternal.png) no-repeat fixed; 
+	background: url(images/TheRoadEternal.png) no-repeat fixed center; 
 	background-size: 100%;
 }
 
