@@ -7,7 +7,7 @@
 } 
 
 .about-me {
-	background: url(images/Misc-Unknown-65130.jpg) no-repeat fixed center; 
+	background: url(images/whiteout.png) no-repeat fixed center; 
 	background-size: 100%;
 }
 
@@ -18,13 +18,13 @@
 }
 
 .about-me .header h1 {
-	color: #fff;  
+	color: #000066;  
 	font-size: 30px; 
 	text-transform: uppercase; 
 }
 
 .about-me .header h4 {
-	color: #fff;
+	color: #000066;
 	margin: 0 0 30px;
 }
 
