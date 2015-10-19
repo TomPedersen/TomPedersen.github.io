@@ -151,15 +151,19 @@
 
 /* History Main */ 
 
-.history .container .jobsection {
+.history .container-section .jobsection {
 	height: 720px;
 	background: url(images/1264905220939.jpg);
 }
 
-.history .container h3 {
+.history .container-section h3 {
 	color: #000066;
 	text-align: center;
 	padding-top: 30px;
+}
+
+.history .container-section a {
+	text-decoration: none;
 }
 
 /* History Footer */ 
