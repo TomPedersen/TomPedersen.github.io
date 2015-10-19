@@ -151,15 +151,26 @@
 
 /* History Main */ 
 
-.history .container-section .jobsection {
+.history .container-section .vmsection {
 	height: 720px;
-	background: url(images/1264905220939.jpg);
+	background: url(images/blueprint.jpg) center;
+}
+
+.history .container-section .anzsection {
+	height: 720px;
+	background: url(images/money.jpg) center;
+}
+
+.history .container-section .edasection {
+	height: 720px;
+	background: url(images/programming.jpg);
 }
 
 .history .container-section h3 {
 	color: #000066;
 	text-align: center;
 	padding-top: 30px;
+	font-family: 'Russo One', sans-serif;
 }
 
 .history .container-section a {
