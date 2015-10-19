@@ -163,7 +163,7 @@
 
 .history .container-section .edasection {
 	height: 720px;
-	background: url(images/programming.jpg);
+	background: url(images/programming.jpg) center;
 }
 
 .history .container-section h3 {
