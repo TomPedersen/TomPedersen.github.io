@@ -106,7 +106,7 @@
 } 
 
 .history {
-	background: url(images/books.jpg) no-repeat fixed center; 
+	background: url(images/office100_-60.jpg) no-repeat fixed center; 
 	background-size: 100%;
 }
 
@@ -154,16 +154,19 @@
 .history .container-section .vmsection {
 	height: 720px;
 	background: url(images/blueprint.jpg) center;
+	opacity: 0.5;
 }
 
 .history .container-section .anzsection {
 	height: 720px;
 	background: url(images/money.jpg) center;
+	opacity: 0.5;
 }
 
 .history .container-section .edasection {
 	height: 720px;
 	background: url(images/programming.jpg) center;
+	opacity: 0.5;
 }
 
 .history .container-section h3 {
@@ -326,13 +329,13 @@
 }
 
 .future .header h1 {
-	color: #fff;  
+	color: ##000066;  
 	font-size: 30px; 
 	text-transform: uppercase; 
 }
 
 .future .header h4 {
-	color: #fff;
+	color: ##000066;
 	margin: 0 0 30px;
 }
 
