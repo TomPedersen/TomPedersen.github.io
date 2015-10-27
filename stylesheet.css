@@ -1,4 +1,22 @@
-/* About Me */
+/*Global Header Settings*/
+
+.header {
+	margin-bottom: 50px;
+}
+
+.navbar-brand h4 {
+	margin: 0;
+	color: #fff;	
+}
+
+.navbar ul {
+	padding-top: 5px;
+}
+
+
+
+
+/* About Me General*/
 
 .about-me {
 	margin: 0; 
@@ -10,45 +28,6 @@
 	background: url(images/whiteout.png) 50% 0 no-repeat fixed;
 	background-size: 100%;
 }
-
-/* About Me Header */
-.about-me .header, .about-me .footer {
-	padding: 30px 0; 
-	color: #444; 
-}
-
-.about-me .header h1 {
-	color: #000066;  
-	font-size: 30px; 
-	text-transform: uppercase; 
-}
-
-.about-me .header h4 {
-	color: #000066;
-	margin: 0 0 30px;
-}
-
-.about-me .header ul, .about-me .footer ul {
-	padding: 0 20px; 
-	margin: 0; 
-	list-style: none; 
-}
-
-.about-me .header li {
-	display: inline; 
-	width: 100px; 
-	text-align: center; 
-	margin: 6px; 
-}
-
-.about-me .header li a {
-	color: #9966FF; 
-}
-
-.about-me .header li.active a {
-	background-color: #9966FF;
-	color: #fff; 
-} 
 
 /* About Me Main */ 
 .about-me .main .container {
@@ -97,7 +76,13 @@
 	margin: 0 30px 0 0; 
 } 
 
-/* History */
+.about-me .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
+
+/* History General */
 
 .history {
 	margin: 0; 
@@ -110,44 +95,6 @@
 	background-size: 100%;
 }
 
-/* History Header */
-.history .header, .history .footer {
-	padding: 30px 0; 
-	color: #444; 
-}
-
-.history .header h1 {
-	color: #fff;  
-	font-size: 30px; 
-	text-transform: uppercase; 
-}
-
-.history .header h4 {
-	color: #fff;
-	margin: 0 0 30px;
-}
-
-.history .header ul, .history .footer ul {
-	padding: 0 20px; 
-	margin: 0; 
-	list-style: none; 
-}
-
-.history .header li {
-	display: inline; 
-	width: 100px; 
-	text-align: center; 
-	margin: 6px; 
-}
-
-.history .header li a {
-	color: #9966FF; 
-}
-
-.history .header li.active a {
-	background-color: #9966FF;
-	color: #fff; 
-} 
 
 /* History Main */ 
 
@@ -196,7 +143,7 @@
 	margin: 0 30px 0 0; 
 } 
 
-/* Interests */
+/* Interests General */
 
 .interests {
 	margin: 0; 
@@ -208,45 +155,7 @@
 	background: url(images/Music-Headphones-61874.jpg) 50% 0 no-repeat fixed; 
 	background-size: 100%;
 }
-
-/* Interests Header */
-.interests .header, .interests .footer {
-	padding: 30px 0; 
-	color: #444; 
-}
-
-.interests .header h1 {
-	color: #fff;  
-	font-size: 30px; 
-	text-transform: uppercase; 
-}
-
-.interests .header h4 {
-	color: #fff;
-	margin: 0 0 30px;
-}
-
-.interests .header ul, .interests .footer ul {
-	padding: 0 20px; 
-	margin: 0; 
-	list-style: none; 
-}
-
-.interests .header li {
-	display: inline; 
-	width: 100px; 
-	text-align: center; 
-	margin: 6px; 
-}
-
-.interests .header li a {
-	color: #9966FF; 
-}
-
-.interests .header li.active a {
-	background-color: #9966FF;
-	color: #fff; 
-} 
+ 
 
 /* Interests Main */ 
 .interests .content-container .container {
@@ -294,6 +203,17 @@
 }
 
 /* Interests Footer */ 
+.interests .footer, .interests .main:after {
+  height: 30px; 
+}
+
+.interests .footer {
+	background: #000;
+    line-height: 30px;
+    height: 30px;
+    border-top: 1px solid #FFF;
+}
+
 .interests .footer li {
 	display: inline; 
 	margin-right: 40px; 
@@ -309,7 +229,7 @@
 	margin: 0 30px 0 0; 
 } 
 
-/* Future */
+/* Future  General */
 
 .future {
 	font-family: 'Montserrat', sans-serif; 
