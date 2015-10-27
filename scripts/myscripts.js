@@ -19,6 +19,7 @@ $(document).ready(function(){
    	$('section[data-type="background"]').each(function(){
      	var $bgobj = $(this); // assigning the object
 
+     	// Determines how much the user has scrolled and divides it by the data speed
      	$(window).scroll(function() {
    			var yPos = -($window.scrollTop() / $bgobj.data('speed'));
 			
