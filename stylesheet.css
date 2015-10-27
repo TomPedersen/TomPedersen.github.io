@@ -6,7 +6,8 @@
 
 .navbar-brand h4 {
 	margin: 0;
-	color: #fff;	
+	color: #fff;
+	text-transform: uppercase; 
 }
 
 .navbar ul {
@@ -30,6 +31,11 @@
 }
 
 /* About Me Main */ 
+
+.about-me .main {
+	padding-top: 50px;
+}
+
 .about-me .main .container {
 	max-width: 928px;
 	margin-bottom: 20px;
@@ -67,7 +73,7 @@
 } 
 
 .about-me .footer li a {
-	color: #9966FF; 
+	color: #6B47B2; 
 	text-decoration: none;
 }
 
@@ -97,6 +103,15 @@
 
 
 /* History Main */ 
+
+.history .main {
+	padding-top: 50px;
+}
+
+.history .container {
+	margin-bottom: 40px;
+} 
+
 
 .history .container-section .vmsection {
 	background: url(images/blueprint.jpg) center;
@@ -134,7 +149,7 @@
 } 
 
 .history .footer li a {
-	color: #9966FF; 
+	color: #6B47B2; 
 	text-decoration: none;
 }
 
@@ -144,6 +159,11 @@
 } 
 
 /* Interests General */
+
+.interests .main {
+	padding-top: 50px;
+}
+
 
 .interests {
 	margin: 0; 
@@ -203,24 +223,13 @@
 }
 
 /* Interests Footer */ 
-.interests .footer, .interests .main:after {
-  height: 30px; 
-}
-
-.interests .footer {
-	background: #000;
-    line-height: 30px;
-    height: 30px;
-    border-top: 1px solid #FFF;
-}
-
 .interests .footer li {
 	display: inline; 
 	margin-right: 40px; 
 } 
 
 .interests .footer li a {
-	color: #9966FF; 
+	color: #6B47B2; 
 	text-decoration: none;
 }
 
@@ -229,50 +238,17 @@
 	margin: 0 30px 0 0; 
 } 
 
+.interests .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
+
 /* Future  General */
 
 .future {
 	font-family: 'Montserrat', sans-serif; 
 }
-
-/* Future Header */
-.future .header {
-	position: fixed;
-    top: 0px;
-    width: 100%;
-    background: #000;
-    border-bottom: 1px solid #FFF;
-}
-
-.future .header h4 {
-	color: #fff;  
-	text-transform: uppercase; 
-	width: 390px;
-}
-
-.future .header ul, .future .footer ul {
-	padding: 0 10px; 
-	margin: 0; 
-	list-style: none; 
-}
-
-.future .header li {
-	display: inline; 
-	width: 100px; 
-	text-align: center; 
-	margin: 6px; 
-	font-size: 10px;
-	font-weight: lighter;
-}
-
-.future .header li a {
-	color: #9966FF; 
-}
-
-.future .header li.active a {
-	background-color: #9966FF;
-	color: #fff; 
-} 
 
 /* Future Main */ 
 .future .main {
@@ -336,15 +312,8 @@
 }
 
 /* Future Footer */ 
-.future .footer, .future .main:after {
-  height: 30px; 
-}
-
 .future .footer {
-	background: #000;
-    line-height: 30px;
-    height: 30px;
-    border-top: 1px solid #FFF;
+	background-color: #000;
 }
 
 .future .footer li {
@@ -353,7 +322,7 @@
 } 
 
 .future .footer li a {
-	color: #9966FF; 
+	color: #fff; 
 	text-decoration: none;
 }
 
@@ -361,4 +330,10 @@
 	color: #fff;
 	margin: 0 30px 0 0; 
 } 
+
+.future .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
 
