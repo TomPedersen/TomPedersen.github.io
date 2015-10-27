@@ -32,7 +32,15 @@ $(document).ready(function(){
 	    var windowCenter = (windowHeight / 2);
 	    var newtop = windowCenter - navHeight;
 	    $('#nav').css({"top": newtop});
-	}
+	};
+
+	/*When the function is called, 5 arguments are provided: x = x position of page, windowHeight = height of
+	window, pos = position of scrollbar, adjuster = value that moved the bg into position, inertia = speed at
+	which bg image moves in relation to scrollbar*/
+
+	function newPos(x, windowHeight, pos, adjuster, inertia){
+		return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
+	};
 
 });
 
