@@ -15,6 +15,19 @@ $(document).ready(function(){
    		function() { 
    			$(this).stop(true, true).fadeTo('fast', 0.5); 
    	});
+
+   	$('section[data-type="background"]').each(function(){
+     	var $bgobj = $(this); // assigning the object
+
+     	$(window).scroll(function() {
+   			var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+			
+			var coords = '50% '+ yPos + 'px';
+
+			$bgobj.css({ backgroundPosition: coords });
+
+		});
+	});
 });
 
 
