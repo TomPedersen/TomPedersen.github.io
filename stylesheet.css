@@ -361,14 +361,14 @@
 	padding: 0;
 }
 
-.future #nav {
+#nav {
 	list-style: none;
 	position: fixed;
 	right: 20px;
 	margin-top: 55px;
 }
 
-.future #intro {
+#intro {
     background:url(images/KQOBk.jpg) 50% 0 no-repeat fixed;
     color: white;
     height: 600px;
@@ -376,15 +376,7 @@
     padding: 160px 0 0 0;
 }
 
-.future #second {
-    background:url(images/Man-Made-Bridge-57240.jpg) 50% 0 no-repeat fixed;
-    color: white;
-    height: 600px;
-    margin: 0;
-    padding: 160px 0 0 0;
-}
-
-.future #third {
+#second {
     background:url(images/Man-Made-City-54606.jpg) 50% 0 no-repeat fixed;
     color: white;
     height: 600px;
@@ -392,7 +384,15 @@
     padding: 160px 0 0 0;
 }
 
-.future #fourth {
+#third {
+    background:url(images/Man-Made-Bridge-57240.jpg) 50% 0 no-repeat fixed;
+    color: white;
+    height: 600px;
+    margin: 0;
+    padding: 160px 0 0 0;
+}
+
+#fourth {
     background:url(images/Music-Guitar-62676.jpg) 50% 0 no-repeat fixed;
     color: white;
     height: 600px;
@@ -400,7 +400,7 @@
     padding: 160px 0 0 0;
 }
 
-.future #fifth {
+#fifth {
     background:url(images/stormy_lake_w_1920x1200.jpg) 50% 0 no-repeat fixed;
     color: white;
     height: 600px;
@@ -408,7 +408,7 @@
     padding: 160px 0 0 0;
 }
 
-.future .story {
+.story {
     margin: 0 auto;
     min-width: 980px;
     width: 980px;
