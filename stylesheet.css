@@ -7,7 +7,7 @@
 } 
 
 .about-me {
-	background: url(images/whiteout.png) no-repeat fixed center; 
+	background: url(images/whiteout.png) 50% 0 no-repeat fixed;
 	background-size: 100%;
 }
 
@@ -106,7 +106,7 @@
 } 
 
 .history {
-	background: url(images/office100_-60.jpg) no-repeat fixed center; 
+	background: url(images/office100_-60.jpg) 50% 0 no-repeat fixed; 
 	background-size: 100%;
 }
 
@@ -205,7 +205,7 @@
 } 
 
 .interests {
-	background: url(images/Music-Headphones-61874.jpg) no-repeat fixed center; 
+	background: url(images/Music-Headphones-61874.jpg) 50% 0 no-repeat fixed; 
 	background-size: 100%;
 }
 
@@ -371,46 +371,47 @@
 #intro {
     background:url(images/KQOBk.jpg) 50% 0 no-repeat fixed;
     color: white;
-    height: 600px;
+    min-height: 1000px;
     margin: 0;
-    padding: 160px 0 0 0;
+    padding: 360px 0 0 0;
 }
 
 #second {
     background:url(images/Man-Made-City-54606.jpg) 50% 0 no-repeat fixed;
     color: white;
-    height: 600px;
+    min-height: 1000px;
     margin: 0;
-    padding: 160px 0 0 0;
+    padding: 360px 0 0 0;
 }
 
 #third {
     background:url(images/Man-Made-Bridge-57240.jpg) 50% 0 no-repeat fixed;
     color: white;
-    height: 600px;
+    min-height: 1000px;
     margin: 0;
-    padding: 160px 0 0 0;
+    padding: 360px 0 0 0;
 }
 
 #fourth {
     background:url(images/Music-Guitar-62676.jpg) 50% 0 no-repeat fixed;
     color: white;
-    height: 600px;
+    min-height: 1000px;
     margin: 0;
-    padding: 160px 0 0 0;
+    padding: 360px 0 0 0;
 }
 
 #fifth {
     background:url(images/stormy_lake_w_1920x1200.jpg) 50% 0 no-repeat fixed;
     color: white;
-    height: 600px;
+    min-height: 1000px;
     margin: 0;
-    padding: 160px 0 0 0;
+    padding: 360px 0 0 0;
 }
 
 .story {
     margin: 0 auto;
     min-width: 980px;
+    overflow: auto;
     width: 980px;
 }
 
