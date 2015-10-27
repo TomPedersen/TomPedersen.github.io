@@ -4,6 +4,7 @@ var $firstBG = $('#intro');
 var $secondBG = $('#second');
 var $thirdBG = $('#third');
 var $fourthBG = $('#fourth');
+var $fifthBG = $('#fifth');
 
 $(document).ready(function(){
 	$('.jobsection').hover(
@@ -14,7 +15,7 @@ $(document).ready(function(){
    			$(this).stop(true, true).fadeTo('fast', 0.5); 
    	});
 
-	$('#intro, #second, #third, #fourth').bind('inview', function (event, visible) {
+	$('#intro, #second, #third, #fourth, #fifth').bind('inview', function (event, visible) {
     	if (visible == true) {
         	$(this).addClass("inview");
     	}else{
@@ -41,6 +42,38 @@ $(document).ready(function(){
 	function newPos(x, windowHeight, pos, adjuster, inertia){
 		return x + "% " + (-((windowHeight + pos) - adjuster) * inertia)  + "px";
 	};
+
+	/*Move() function to be called whenever user moves scrollbar or resizes browser. It begins by working out
+	the position of the scrollbar, then going through if statements to see which article is "in view".*/
+
+	function Move(){
+    	var pos = $window.scrollTop();
+
+    	if($firstBG.hasClass("inview")){
+    		$firstBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, 0.3)});
+		}
+		if($secondBG.hasClass("inview")){
+    		$secondBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, 0.3)});
+		}
+		if($thirdBG.hasClass("inview")){
+    		$thirdBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, 0.3)});
+		}
+		if($fourthBG.hasClass("inview")){
+    		$fourthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, 0.3)});
+		}
+		if($fifthBG.hasClass("inview")){
+    		$fifthBG.css({'backgroundPosition': newPos(50, windowHeight, pos, 900, 0.3)});
+		}		
+	};
+
+	$window.resize(function(){
+    	Move();
+    	RepositionNav();
+	});
+
+	$window.bind('scroll', function(){
+    	Move();
+	});
 
 });
 
