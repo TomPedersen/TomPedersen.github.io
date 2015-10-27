@@ -21,7 +21,9 @@ $(document).ready(function(){
 
      	// Determines how much the user has scrolled and divides it by the data speed
      	$(window).scroll(function() {
-   			var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+     		//var yPos = -($window.scrollTop() / $bgobj.data('speed'));
+   			/*Caused whitespace when data-speed was too fast or when multiple sections added*/
+   			var yPos = -( ($window.scrollTop() - $bgobj.offset().top) / $bgobj.data('speed'));
 			
 			var coords = '50% '+ yPos + 'px';
 
