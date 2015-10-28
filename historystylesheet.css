@@ -1,0 +1,91 @@
+/*Global Header Settings*/
+
+.header {
+	margin-bottom: 50px;
+}
+
+.navbar-brand h4 {
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase; 
+}
+
+.navbar ul {
+	padding-top: 5px;
+}
+
+
+
+
+
+
+
+/* History General */
+
+.history {
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Montserrat', sans-serif; 
+} 
+
+.history {
+	background: url(images/office100_-60.jpg) 50% 0 no-repeat fixed; 
+	background-size: 100%;
+}
+
+
+/* History Main */ 
+
+.history .main {
+	padding-top: 50px;
+}
+
+.history .container {
+	margin-bottom: 40px;
+} 
+
+
+.history .container-section .vmsection {
+	background: url(images/blueprint.jpg) center;
+}
+
+.history .container-section .anzsection {
+	background: url(images/money.jpg) center;
+}
+
+.history .container-section .edasection {
+	background: url(images/programming.jpg) center;
+}
+
+.history .container-section .jobsection {
+	height: 720px;
+	opacity: 0.5;
+	border-radius: 10px;
+}
+
+.history .container-section h3 {
+	color: #000066;
+	text-align: center;
+	padding-top: 30px;
+	font-family: 'Russo One', sans-serif;
+}
+
+.history .container-section a {
+	text-decoration: none;
+}
+
+/* History Footer */ 
+.history .footer li {
+	display: inline; 
+	margin-right: 40px; 
+} 
+
+.history .footer li a {
+	color: #6B47B2; 
+	text-decoration: none;
+}
+
+.history .footer p {
+	color: #fff;
+	margin: 0 30px 0 0; 
+} 
