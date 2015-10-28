@@ -123,6 +123,25 @@
 	font-size: 68.5%;
 }
 
+/* History Main - Effect Specific*/
+
+figure.hover-effect {
+	background: #030c17;
+}
+
+figure.hover-effect:hover h2 {
+	-webkit-transform: scale(0.9);
+	transform: scale(0.9);
+}
+
+figure.hover-effect:hover figcaption {
+	background-color: rgba(58,52,42,0);
+}
+
+figure.hover-effect:hover img {
+	opacity: 0.4;
+}
+
 /* History Footer */ 
 .history .footer li {
 	display: inline; 
