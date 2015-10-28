@@ -309,6 +309,9 @@
     min-width: 980px;
     overflow: auto;
     width: 980px;
+    font-size: 30px;
+    padding: 10px;
+	background-color: rgba(0,0,0,0.5);
 }
 
 /* Future Footer */ 
