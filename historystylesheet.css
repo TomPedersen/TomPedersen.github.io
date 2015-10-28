@@ -40,38 +40,37 @@
 	padding-top: 50px;
 }
 
-.history .container {
-	margin-bottom: 40px;
-} 
-
-
-.history .container-section .vmsection {
-	background: url(images/blueprint.jpg) center;
-}
-
-.history .container-section .anzsection {
-	background: url(images/money.jpg) center;
-}
-
-.history .container-section .edasection {
-	background: url(images/programming.jpg) center;
-}
-
-.history .container-section .jobsection {
-	height: 720px;
-	opacity: 0.5;
-	border-radius: 10px;
-}
-
-.history .container-section h3 {
-	color: #000066;
+.grid {
+	position: relative;
+	clear: both;
+	margin: 0 auto;
+	padding: 1em 0 4em;
+	max-width: 1000px;
+	list-style: none;
 	text-align: center;
-	padding-top: 30px;
-	font-family: 'Russo One', sans-serif;
 }
 
-.history .container-section a {
-	text-decoration: none;
+.grid figure {
+	position: relative;
+	float: left;
+	overflow: hidden;
+	margin: 10px 1%;
+	min-width: 320px;
+	max-width: 480px;
+	max-height: 360px;
+	width: 48%;
+	height: auto;
+	background: #3085a3;
+	text-align: center;
+	cursor: pointer;
+}
+
+.grid figure img {
+	position: relative;
+	display: block;
+	min-height: 400px;
+	max-width: 533px;
+	opacity: 0.8;
 }
 
 /* History Footer */ 
