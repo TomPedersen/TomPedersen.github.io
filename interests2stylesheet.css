@@ -1,0 +1,101 @@
+/*Global Header Settings*/
+
+.header {
+	margin-bottom: 50px;
+}
+
+.navbar-brand h4 {
+	margin: 0;
+	color: #fff;
+	text-transform: uppercase; 
+}
+
+.navbar ul {
+	padding-top: 5px;
+}
+
+/* Interests General */
+
+.interests .main {
+	padding-top: 50px;
+}
+
+
+.interests {
+	margin: 0; 
+	padding: 0; 
+	font-family: 'Montserrat', sans-serif; 
+} 
+
+.interests {
+	background: url(images/Music-Headphones-61874.jpg) 50% 0 no-repeat fixed; 
+	background-size: 100%;
+}
+ 
+
+/* Interests Main */ 
+.interests .content-container .container {
+	max-width: 928px;
+} 
+
+.interests .content-container h1, .interests .content-container h2, .interests .content-container p {
+	font-family: 'Helvetica Neue Thin', 'HelveticaNeue-Thin', 'helvetica neue', helvetica, arial, 'lucida grande', sans-serif; 
+} 
+
+.interests .content-container h1 {
+	color: #fff;
+	font-size: 64px; 
+	font-weight: 100; 
+	margin-bottom: 20px;
+} 
+
+.interests .content-container h2 {
+	color: #fff; 
+	font-size: 2.3em; 
+	font-weight: 300; 
+	line-height: 1.25; 
+	margin: 1em 0; 
+} 
+
+.interests .content-container p {
+	color: #fff;
+	font-size: 26px; 
+	font-weight: 200; 
+} 
+
+.interests .content-container .section {
+	padding-top: 50px; 
+	padding-bottom: 50px; 
+	border-bottom: 2px solid #fff; 
+}
+
+.interests .content-container .text-box {
+	padding: 10px;
+	background-color: rgba(0,0,0,0.5);
+}
+
+.interests .content-container img {
+	border-radius: 10px;
+}
+
+/* Interests Footer */ 
+.interests .footer li {
+	display: inline; 
+	margin-right: 40px; 
+} 
+
+.interests .footer li a {
+	color: #6B47B2; 
+	text-decoration: none;
+}
+
+.interests .footer p {
+	color: #fff;
+	margin: 0 30px 0 0; 
+} 
+
+.interests .footer ul {
+	padding: 0 20px; 
+	margin: 0; 
+	list-style: none; 
+}
