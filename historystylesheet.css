@@ -129,15 +129,53 @@ figure.hover-effect {
 	background: #030c17;
 }
 
-figure.hover-effect:hover h2 {
-	-webkit-transform: scale(1.25);
-	transform: scale(1.25);
+figure.hover-effect img {
+	opacity: 0.9;
+	-webkit-transition: opacity 0.35s;
+	transition: opacity 0.35s;
+}
+
+figure.hover-effect figcaption::before {
+	position: absolute;
+	top: 30px;
+	right: 30px;
+	bottom: 30px;
+	left: 30px;
+	border: 2px solid #fff;
+	box-shadow: 0 0 0 30px rgba(255,255,255,0.2);
+	content: '';
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale3d(1.4,1.4,1);
+	transform: scale3d(1.4,1.4,1);
 }
 
 figure.hover-effect h2 {
 	margin: 20% 0 10px 0;
 	-webkit-transition: -webkit-transform 0.35s;
 	transition: transform 0.35s;
+}
+
+figure.hover-effect p {
+	padding: 1em;
+	opacity: 0;
+	-webkit-transition: opacity 0.35s, -webkit-transform 0.35s;
+	transition: opacity 0.35s, transform 0.35s;
+	-webkit-transform: scale(1.5);
+	transform: scale(1.5);
+}
+
+figure.hover-effect:hover h2 {
+	-webkit-transform: scale(0.8);
+	transform: scale(0.8);
+}
+
+figure.hover-effect:hover figcaption::before,
+figure.hover-effect:hover p {
+	opacity: 1;
+	-webkit-transform: scale3d(1,1,1);
+	transform: scale3d(1,1,1);
 }
 
 figure.hover-effect:hover figcaption {
