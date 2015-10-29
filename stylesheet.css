@@ -46,6 +46,7 @@
 	float: left;
 	margin: 10px 30px;
 	border-radius: 10px;
+	box-shadow: 5px 5px 5px #888888;
 }
 
 .about-me .holphoto img{
@@ -53,6 +54,7 @@
 	float: right;
 	margin: 10px 30px;
 	border-radius: 10px;
+	box-shadow: 5px 5px 5px #888888;
 }
 
 .about-me h2 {
@@ -73,7 +75,7 @@
 } 
 
 .about-me .footer li a {
-	color: #6B47B2; 
+	color: ##428bca; 
 	text-decoration: none;
 }
 
@@ -97,7 +99,7 @@
 } 
 
 .history {
-	background: url(images/office100_-60.jpg) 50% 0 no-repeat fixed; 
+	background: url(images/grey.jpg) 50% 0 no-repeat fixed;
 	background-size: 100%;
 }
 
@@ -261,7 +263,7 @@ figure.hover-effect:hover img {
 } 
 
 .history .footer li a {
-	color: #6B47B2; 
+	color: ##428bca; 
 	text-decoration: none;
 }
 
@@ -341,7 +343,7 @@ figure.hover-effect:hover img {
 } 
 
 .interests .footer li a {
-	color: #6B47B2; 
+	color: ##428bca; 
 	text-decoration: none;
 }
 
@@ -424,6 +426,7 @@ figure.hover-effect:hover img {
     font-size: 30px;
     padding: 10px;
 	background-color: rgba(0,0,0,0.5);
+	box-shadow: 0 0 0 5px rgba(0 ,0, 0, 0.65);
 }
 
 /* Future Footer */ 
